@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/index.css">
+    <link rel="stylesheet" href="Style/Responsividade.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="ModalMensager" id="ModalMensager"></div>
+    
+    <div class="App">
+        <h4>Conversor para binario</h4>
+
+        <section>
+            <button id="BtnAbaTexto">Texto</button>
+            <button id="BtnAbaCaracter">Caracter</button>
+            <button id="BtnAbaDecodificacao">Decodifica</button>
+
+            <div class="CursorAba" id="CursorAba"></div>
+        </section>
+
+        <form>
+            <textarea id="TextoTextarea" placeholder="Seu texto"></textarea>
+
+            <div class="PrintConvetion" id="PrintConvetion"></div>
+
+            <div class="Controls">
+                <button id="BtnIniciar">Iniciar</button>
+                <button id="BtnCopiar">Copiar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="Script/StringPraBinario.js"></script>
+    <script src="Script/Controls.js"></script>
+</body>
+</html>
